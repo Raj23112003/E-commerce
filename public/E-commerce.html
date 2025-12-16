@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E-commerce Fake Store</title>
+  <link rel="stylesheet" href="E-commerce.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Grocery Clone</div>
+    <div class="tagline">Simple Fake E-commerce</div>
+  </header>
+
+  <main class="main">
+    <section class="products-section">
+      <h2>Products</h2>
+      <div id="products" class="products-grid">
+        <!-- Products will be injected here by JS -->
+      </div>
+    </section>
+
+    <aside class="cart-section">
+      <h2>Cart</h2>
+      <div id="cart-items"></div>
+      <p class="cart-total">
+        Total: ₹<span id="cart-total">0</span>
+      </p>
+      <button id="checkout-btn" class="checkout-btn">Checkout</button>
+      <div id="message" class="message"></div>
+    </aside>
+  </main>
+
+  <script src="E-commerce.js"></script>
+</body>
+</html>
